@@ -1,0 +1,85 @@
+
+@mixin clearfix {
+  &:before {
+    display: table;
+    content: "";
+  }
+
+  &:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+}
+
+
+/* placeholder mixin */
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content
+  }
+
+  &:-moz-placeholder {
+    @content
+  }
+
+  &::-moz-placeholder {
+    @content
+  }
+
+  &:-ms-input-placeholder {
+    @content
+  }
+
+}
+
+
+@mixin transition ($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+      -ms-transition: $transition;
+          transition: $transition;
+}
+
+
+@mixin rotate($angle) {
+  -moz-transform: rotate($angle);
+  -ms-transform: rotate($angle);
+  -webkit-transform: rotate($angle);
+  transform: rotate($angle);
+}
+
+@mixin borderRadius($radius) {
+  -moz-border-radius: $radius ;
+  -ms-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin boxShadow($shadow){
+  -moz-box-shadow: $shadow;
+  -ms-box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+@mixin appearance($value){
+  -webkit-appearance: $value;
+  -moz-appearance: $value;
+  appearance: $value;
+}
+
+
+@mixin flex($shrink, $grow, $basis){
+  -moz-flex-shrink: $shrink;
+  -webkit-flex-shrink: $shrink;
+  flex-shrink: $shrink;
+
+  -moz-flex-grow: $grow;
+  -webkit-flex-grow: $grow;
+  flex-grow: $grow;
+
+  -moz-flex-basis: $basis;
+  -webkit-flex-basis: $basis;
+  flex-basis: $basis;
+}

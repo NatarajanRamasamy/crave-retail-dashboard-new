@@ -1,0 +1,25 @@
+.sidebar-footer{
+  padding: 5px 25px;
+  flex-shrink: 0;
+  p{
+    margin: 0px 0px 0px 0px;
+    font-size: 9px;
+    &.copyright{
+      font-size: 7px;
+    }
+  }
+  .footer-brand{
+    width: 70px;
+    height: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+  @media (min-width: 1366px){
+    .footer-brand{
+      width: 100px;
+    }
+     p{
+      font-size: 13px;
+     }
+  }
+}

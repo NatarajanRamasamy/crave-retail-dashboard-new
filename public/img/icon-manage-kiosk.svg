@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.967" height="32.5" viewBox="0 0 23.967 32.5">
+  <g id="Manage_Kiosk_Icon" data-name="Manage Kiosk Icon" transform="translate(-68.017 0.25)">
+    <g id="Group_34" data-name="Group 34" transform="translate(68.267)">
+      <g id="Group_33" data-name="Group 33" transform="translate(0)">
+        <path id="Path_7" data-name="Path 7" d="M68.8,25.233a.541.541,0,0,0,.533-.549V2.743a1.784,1.784,0,0,1,1.6-1.646H89.067a1.784,1.784,0,0,1,1.6,1.646.534.534,0,1,0,1.067,0A2.85,2.85,0,0,0,89.067,0H70.934a2.85,2.85,0,0,0-2.667,2.743V24.684A.541.541,0,0,0,68.8,25.233Z" transform="translate(-68.267)" fill="#b1b6ff" stroke="#b1b6ff" stroke-width="0.5"/>
+        <path id="Path_8" data-name="Path 8" d="M91.2,68.267H70.934a.541.541,0,0,0,0,1.082H90.667V93.695a1.771,1.771,0,0,1-1.6,1.623H70.934a1.771,1.771,0,0,1-1.6-1.623V90.99H89.067a.541.541,0,0,0,0-1.082H68.8a.537.537,0,0,0-.533.541v3.246A2.83,2.83,0,0,0,70.934,96.4H89.067a2.83,2.83,0,0,0,2.667-2.705V68.808A.537.537,0,0,0,91.2,68.267Z" transform="translate(-68.267 -64.4)" fill="#b1b6ff" stroke="#b1b6ff" stroke-width="0.5"/>
+        <path id="Path_9" data-name="Path 9" d="M248.161,34.133a.483.483,0,1,0,.488.483.482.482,0,0,0-.488-.483Z" transform="translate(-236.417 -32.2)" fill="#b1b6ff" stroke="#b1b6ff" stroke-width="0.5"/>
+        <path id="Path_10" data-name="Path 10" d="M307.34,119.606a.483.483,0,0,0,0,.683l3.867,3.867a.483.483,0,0,0,.683-.683l-3.867-3.867A.483.483,0,0,0,307.34,119.606Z" transform="translate(-291.466 -111.858)" fill="#b1b6ff" stroke="#b1b6ff" stroke-width="0.5"/>
+        <path id="Path_11" data-name="Path 11" d="M238.933,444.7a.967.967,0,1,0,.967-.967A.968.968,0,0,0,238.933,444.7Z" transform="translate(-228.167 -415.6)" fill="#b1b6ff" stroke="#b1b6ff" stroke-width="0.5"/>
+        <path id="Path_12" data-name="Path 12" d="M359.847,121.4a.483.483,0,0,0,.342-.825l-.967-.967a.483.483,0,1,0-.683.683l.967.967A.482.482,0,0,0,359.847,121.4Z" transform="translate(-339.765 -111.948)" fill="#b1b6ff" stroke="#b1b6ff" stroke-width="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

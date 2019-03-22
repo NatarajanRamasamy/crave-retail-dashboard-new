@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.173" height="32" viewBox="0 0 43.173 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Menu_Area_копия" data-name="Menu Area копия" width="43.173" height="32" transform="translate(344 -3)" fill="#4b56cb" opacity="0.902"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-344 3)" clip-path="url(#clip-path)">
+    <g id="outline-visibility-24px" transform="translate(349.587 -3)">
+      <path id="Path_21" data-name="Path 21" d="M0,0H32V32H0Z" fill="none"/>
+      <path id="Path_22" data-name="Path 22" d="M67.292,213.167a13.027,13.027,0,0,1,11.76,7.333,13.1,13.1,0,0,1-23.52,0,13.027,13.027,0,0,1,11.76-7.333m0-2.667a15.769,15.769,0,0,0-14.667,10,15.756,15.756,0,0,0,29.333,0A15.769,15.769,0,0,0,67.292,210.5Zm0,6.667a3.333,3.333,0,1,1-3.333,3.333,3.335,3.335,0,0,1,3.333-3.333m0-2.667a6,6,0,1,0,6,6A6.009,6.009,0,0,0,67.292,214.5Z" transform="translate(-51.292 -205.167)" fill="#4b56cb"/>
+    </g>
+  </g>
+</svg>

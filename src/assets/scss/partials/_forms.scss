@@ -1,0 +1,128 @@
+$input-color: #2C2C2C;
+.form-control{
+  background: $input-bg;
+  border: $input-border-width solid $input-border-color;
+  @include borderRadius(4px);
+  height: $input-height;
+  font-size: $input-font-size;
+  color: $input-color;
+  line-height: $input-line-height;
+  font-family: $font-1;
+  padding-left: 25px;
+  padding-right: 25px;
+  @include boxShadow(none);
+  @include appearance(none);
+
+
+
+  &.btn-outline-primary{
+    border-color: $button-color-primary-bg;
+    background: #ffffff;
+    color: #707070;
+    height: 40px;
+    line-height: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    &:hover{
+      background: $button-color-primary-bg;
+    }
+  }
+
+
+  @include placeholder{
+    color: $placeholder-color;
+    opacity: 0.4;
+  }
+
+  &.input-error{
+    border: $input-border-width solid $error-color;
+     &:focus{
+      border: $input-border-width solid $error-color;
+     }
+  }
+
+  &:focus{
+    @include appearance(none);
+    @include boxShadow(none);
+    outline: none;
+    border: $input-border-width solid $input-border-color;
+  }
+}
+
+.input-group{
+	&.input-group-n-b-r{
+		.form-control{
+			border-right: none;
+			&.input-error{
+					
+					~.input-group-append{
+					.btn{
+						@include appearance(none);
+						@include boxShadow(none);
+						outline: none;
+						border: $input-border-width solid $error-color;
+						border-left: none;
+					}
+				}
+
+				&:focus{
+					border-right: none;
+				}
+			}
+			
+		}
+
+	}
+}
+
+
+
+textarea{
+  &.form-control{
+    resize: none;
+  }
+}
+
+
+label{
+  color: $label-color;
+  font: #{$label-font-size}/$base-line-height $font-2;
+  font-size: $label-font-size;
+  opacity: 0.5;
+  margin: 0px;
+}
+
+.error-block{
+  padding-top: 2px;
+  color: $error-color;
+}
+
+
+.custom-control{
+  label{
+    opacity: 1.0;
+    font-size: 18px;
+    font-family: "Avenir LT Std 55 Roman";
+  }
+}
+.custom-radio .custom-control-label::before{
+  border-radius: 3px;
+}
+.custom-control-label::before{
+  width: 1.2rem;
+  height: 1.2rem;
+  border-color: #EEEFF3;
+  background-color: #F5F6FA;
+}
+.custom-control-label::after{
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after{
+  background-image: url(../img/checkbox-checked.svg);
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-radius: 3px;
+  border-color: #EEEFF3;
+  background-color: #F5F6FA;
+}

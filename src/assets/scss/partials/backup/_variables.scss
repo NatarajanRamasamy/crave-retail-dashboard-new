@@ -1,0 +1,117 @@
+// Theme colors
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$primary-color: #4B56CB;
+$secondary-color: #4078c0;
+
+
+$error-color: #f96e6e;
+
+
+$light-bg-color: #EDF1F7 !important;
+
+
+
+$gray-light: #ddd    !default;
+$gray:       #767676 !default;
+$gray-dark:  #333    !default;
+
+
+
+
+
+
+
+// Line height
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$base-line-height: 1.4;
+$heading-line-height: 1.2;
+
+// Other Sizes
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Border
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$base-border-color: $gray-light;
+$base-border: 1px solid $base-border-color;
+
+// Button
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$button-color-primary-bg: #4B56CB;
+$button-color-primary-hover-bg: #38419F;
+$button-font-size: 16px;
+
+
+// Font stack
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$font-1: 'Avenir LT Std 55 Roman' !default;
+$font-2: 'Avenir LT Std 45 Book';
+$font-3: 'Avenir LT Std 55 Heavy' !default;
+$font-4: 'Avenir LT Std 95 Black' !default;
+$font-5: 'Avenir LT Std 35 Light' !default;
+$font-6: 'Avenir LT Std 65 Medium' !default;
+
+
+
+$body-font: 'Avenir LT Std 55 Roman' !default;
+
+
+$font-color-dark: #2C2C2C;
+$font-color-light: #616060;
+$font-color-ex-light: #ADB5B9;
+
+$font-color-success: #1FC889 !important;
+
+
+
+
+// Form
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$input-height : 50px;
+$input-font-size: 18px;
+$input-bg: #F5F6FA;
+$input-color: #2C2C2C;
+$input-line-height: 36px;
+$input-border-width: 1px;
+$input-border-color: #EEEFF3;
+
+$label-color: #2C2C2C;
+$label-font-size: 18px;
+
+$placeholder-color: #2C2C2C;
+
+
+// Links
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$link-color-primary: #4B56CB;
+$link-font-size: 18px;
+
+
+
+
+
+// The base body size
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$body-font-size: 15px !default;
+
+
+// Breakpoints
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$lg-320    	: "min-width: 320px";
+$lg-480   	: "min-width: 480px";
+$lg-768    	: "min-width: 768px";
+$lg-992   	: "min-width: 992px";
+$lg-1024   	: "min-width: 1024px";
+$lg-1200 	: "min-width: 1200px";
+
+$sm-479   	: "max-width: 479px";
+$sm-767    	: "max-width: 767px";
+$sm-991   	: "max-width: 991px";
+$sm-1023   	: "max-width: 1023px";
+$sm-1199 	: "max-width: 1199px";
+$sm-1679 	: "max-width: 1679px";

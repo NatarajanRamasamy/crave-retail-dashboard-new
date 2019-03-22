@@ -1,0 +1,7 @@
+const feedbackConstants = {
+    SEND_FEEDBACK_REQUEST: 'SEND_FEEDBACK_REQUEST',
+    SEND_FEEDBACK_SUCCESS: 'SEND_FEEDBACK_SUCCESS',
+    SEND_FEEDBACK_FAILURE: 'SEND_FEEDBACK_FAILURE',
+
+};
+export default feedbackConstants;
